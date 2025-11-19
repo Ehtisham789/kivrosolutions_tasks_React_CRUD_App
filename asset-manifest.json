@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kivrosolutions_tasks_React_CRUD_App/static/css/main.de428121.css",
+    "main.js": "/kivrosolutions_tasks_React_CRUD_App/static/js/main.725873cf.js",
+    "static/js/453.0373515c.chunk.js": "/kivrosolutions_tasks_React_CRUD_App/static/js/453.0373515c.chunk.js",
+    "index.html": "/kivrosolutions_tasks_React_CRUD_App/index.html",
+    "main.de428121.css.map": "/kivrosolutions_tasks_React_CRUD_App/static/css/main.de428121.css.map",
+    "main.725873cf.js.map": "/kivrosolutions_tasks_React_CRUD_App/static/js/main.725873cf.js.map",
+    "453.0373515c.chunk.js.map": "/kivrosolutions_tasks_React_CRUD_App/static/js/453.0373515c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de428121.css",
+    "static/js/main.725873cf.js"
+  ]
+}
