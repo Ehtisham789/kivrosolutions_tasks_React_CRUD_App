@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+## Introduction: React CRUD Application Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository, **kivrosolutions\_tasks\_React\_CRUD\_App**, contains the solution for a critical front end development assignment: building a **CRUD (Create, Read, Update, Delete) Application** using the **React** framework.
 
-## Available Scripts
+This project is designed to demonstrate proficiency in:
 
-In the project directory, you can run:
+  * **Application State Management:** Using **React Hooks** (primarily `useState` and `useEffect`) to control the flow and integrity of data.
+  * **Form Handling:** Managing user input for creating and updating records.
+  * **Data Manipulation:** Implementing the four core functions required for any data driven application.
+  * **Component Reusability:** Designing separate components for forms, lists, and individual records.
 
-### `npm start`
+-----
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Task Description: Core CRUD Application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The primary objective of this task was to develop a single page application that allows a user to fully manage a collection of records or items without relying on a backend server. The application uses **local state** to manage the data lifecycle within the browser session.
 
-### `npm test`
+### Core CRUD Operations Implemented:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The application provides a user friendly interface for the four essential data management operations:
 
-### `npm run build`
+1.  **C - Create (Add a Record):**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+      * **Functionality:** A form allows users to input data (e.g., Name, ID, or description) and submit it to add a new record to the list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.  **R - Read (View Records):**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      * **Functionality:** All created records are displayed in a clean, organized table or list view, allowing users to **see the current state** of the data.
 
-### `npm run eject`
+3.  **U - Update (Edit a Record):**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+      * **Functionality:** Users can select an existing record and modify its data through a dedicated editing interface or form, reflecting the changes immediately in the list.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4.  **D - Delete (Remove a Record):**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+      * **Functionality:** A mechanism (e.g., a button) is provided next to each record to permanently remove it from the application state.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Technology Stack:
 
-## Learn More
+| Category | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Framework** | **React** (Functional Components) | Building the component structure and UI logic |
+| **State Management** | **React Hooks** (`useState`, `useEffect`) | Managing the array of records and form data |
+| **Data Persistence** | **Local State (in-memory)** | Simulating data storage within the app session |
+| **Styling** | **CSS/Bootstrap** (or similar) | Ensuring a clear, responsive, and functional interface |
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Detail | Value |
+| :--- | :--- |
+| **Live Deployment** | [View Live React CRUD App](https://ehtisham789.github.io/kivrosolutions_tasks_React_CRUD_App/) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-----
 
-### Code Splitting
+## Installation and Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run this React application locally, follow these steps:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Ehtisham789/kivrosolutions_tasks_React_CRUD_App.git
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd kivrosolutions_tasks_React_CRUD_App
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+4.  **Start the application:**
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+    The app should open automatically in your browser at `http://localhost:3000`.
