@@ -41,7 +41,7 @@ The application provides a user friendly interface for the four essential data m
 | :--- | :--- | :--- |
 | **Framework** | **React** (Functional Components) | Building the component structure and UI logic |
 | **State Management** | **React Hooks** (`useState`, `useEffect`) | Managing the array of records and form data |
-| **Data Persistence** | **Local State (in-memory)** | Simulating data storage within the app session |
+| **Data Persistence** | **Local State (in memory)** | Simulating data storage within the app session |
 | **Styling** | **CSS/Bootstrap** (or similar) | Ensuring a clear, responsive, and functional interface |
 
 | Detail | Value |
